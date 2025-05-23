@@ -1,0 +1,94 @@
+# Core Axioms & Definitions: Kimera and SWM
+
+This document outlines the fundamental principles, laws, and definitions that underpin the Kimera and Spatial Web Model (SWM).
+
+## 1. The Primal Law (R₀)
+- **Statement**: "All information within the Spatial Web Model must strive for coherence and consistency with observed reality, acknowledging its own potential for incompleteness and perspectival limitation." (Hypothetical statement)
+- **Implications**:
+    - The SWM is not a source of absolute truth, but a model that continuously refines its representation.
+    - Mechanisms for detecting and managing inconsistency (contradictions) are crucial.
+    - All data and agents operating within the SWM are subject to this law.
+    - The system must allow for evolution and correction of information.
+- **Non-negotiable aspects**:
+    - **Fallibility Acknowledgment**: The system must inherently recognize that its information can be wrong or incomplete.
+    - **Coherence Drive**: All operations and data integration must aim to increase the overall coherence of the model.
+    - **Empirical Grounding**: Where applicable, information should be traceable to or verifiable against observable phenomena or validated data sources.
+
+## 2. Nature of Information
+- **Core Definition**: "Information within SWM is defined as structured data that has been imbued with context and meaning, enabling it to represent aspects of the spatial environment, its entities, and their relationships." (Hypothetical definition)
+- **Properties**:
+    - **Context-dependent**: The value and meaning of information can change based on its surrounding context.
+    - **Dynamic**: Information can be updated, refined, or become obsolete.
+    - **Perspectival**: Information can be partial and represent a particular viewpoint or observation.
+    - **Actionable**: Ideally, information should be usable to inform decisions or trigger actions by agents (Kimera).
+- **Relationship to SWM**:
+    - Information is the lifeblood of the SWM.
+    - The SWM's purpose is to organize, process, and make accessible vast amounts of spatial information.
+    - The quality and integrity of information directly determine the SWM's utility and reliability.
+
+## 3. Nature of Contradiction
+- **Definition within SWM**: "A contradiction occurs when two or more pieces of information within the SWM are logically incompatible or present conflicting representations of the same aspect of reality, given a specific context and set of validation rules." (Hypothetical definition)
+- **Handling/Resolution**:
+    - **Detection**: The system must have mechanisms to identify contradictions (e.g., through logical inference, schema validation, agent-based verification).
+    - **Tagging & Isolation**: Contradictory information may be tagged and isolated to prevent propagation of errors.
+    - **Mediation/Resolution Strategies**: May involve automated processes (e.g., based on data provenance, trust scores, timestamps) or human intervention to resolve the conflict. This could lead to information being updated, deprecated, or contextualized.
+    - **Acceptance of Ambiguity**: In some cases, the SWM might need to represent and hold contradictory information if resolution is not immediately possible, marking it clearly as such.
+- **Role in System Evolution**:
+    - Contradictions are not just errors but can be drivers for learning and model refinement.
+    - Identifying contradictions can highlight flaws in data sources, processing logic, or the model's own understanding.
+    - The process of resolving contradictions leads to a more robust and accurate SWM.
+
+## 4. Key Terminologies & Concepts
+
+### 4.1 Geoids
+- **Definition**: "Geoids are fundamental, bounded, and identifiable spatio-temporal units within the SWM. They represent distinct entities or regions in the modeled environment, serving as anchors for information." (Hypothetical definition)
+- **Function/Role**:
+    - **Basic Units of Representation**: Act as the core building blocks for constructing the spatial model.
+    - **Information Containers**: Geoids encapsulate data, attributes, and relationships pertaining to the specific entity or area they represent.
+    - **Nodes in the Knowledge Graph**: Form the nodes in the SWM knowledge graph, connected by relationships.
+    - **Reference Points**: Provide stable reference points for queries, analysis, and agent interaction.
+- **Characteristics**:
+    - **Identifiable**: Each Geoid has a unique and persistent identifier.
+    - **Spatially Defined**: Possesses a defined geometric or topological boundary.
+    - **Temporally Aware**: May have a temporal extent or be versioned over time.
+    - **Contextually Rich**: Associated with a set of attributes and metadata.
+
+### 4.2 Scars
+- **Definition**: "Scars are persistent imprints or records within a Geoid or the broader SWM fabric that denote significant historical states, resolved contradictions, past traumas (errors or inconsistencies), or major transformative events." (Hypothetical definition)
+- **Origin/Cause**:
+    - **Resolved Contradictions**: When a contradiction is resolved, a Scar might be left indicating the previous conflicting state and the resolution process.
+    - **Data Correction/Evolution**: Significant updates or corrections to a Geoid's information can leave Scars representing the prior state.
+    - **System Events**: Major system-level events or failures that impacted data integrity or representation.
+    - **Historical Logging**: Intentional marking of past states for long-term memory or auditability.
+- **Significance/Impact**:
+    - **Historical Record**: Provide a form of memory or lineage for Geoids and the SWM.
+    - **Learning Resource**: Can be analyzed by Kimera agents to understand system behavior, error patterns, or the evolution of information.
+    - **Audit Trail**: Offer traceability for data changes and resolutions.
+    - **Potential for Misinterpretation**: If not properly contextualized, Scars could be misinterpreted as current information. Their representation must clearly distinguish them from the present state.
+
+### 4.3 Echoes
+- **Definition**: "Echoes are transient, propagating effects or influences of information, events (including the formation of Scars), or agent actions across the SWM. They represent the ripple effects or lingering presence of information, often diminishing over time or distance." (Hypothetical definition)
+- **Mechanism**:
+    - **Information Propagation**: As information is shared, queried, or processed, it can create Echoes in connected Geoids or systems.
+    - **Agent Interaction**: Actions of Kimera agents can generate Echoes as they interact with and modify the SWM.
+    - **Indirect Influence**: Echoes might not be direct copies of information but rather secondary effects or interpretations.
+- **Relationship to Information/Scars**:
+    - **Manifestation of Information Dynamics**: Echoes represent how information and its effects are not always static or localized.
+    - **Result of Scars**: The event that created a Scar might also generate Echoes that propagate through the system.
+    - **Less Permanent than Scars**: Unlike Scars, which are persistent records, Echoes are generally more ephemeral and may fade or be overwritten.
+    - **Indicator of Influence**: The presence and strength of Echoes can indicate the sphere of influence of a piece of information or an event.
+
+### 4.4 Translation
+- **Definition in SWM context**: "Translation is the process of converting information from one schema, model, representation, or context into another, while preserving semantic meaning as much as possible, to enable interoperability and shared understanding within the SWM." (Hypothetical definition)
+- **Process**:
+    - **Schema Mapping**: Defining correspondences between different data structures or ontologies.
+    - **Semantic Transformation**: Applying rules and algorithms to convert data while maintaining its intended meaning.
+    - **Contextual Adjustment**: Modifying information to fit a new context or perspective, potentially involving abstraction or specialization.
+    - **Mediation by Kimera Agents**: Kimera agents may be responsible for performing or mediating translation tasks.
+- **Importance for Interoperability/Understanding**:
+    - **Enables Data Integration**: Allows the SWM to ingest and harmonize data from diverse sources with varying formats and semantics.
+    - **Facilitates Agent Communication**: Allows different Kimera agents, potentially with different internal models, to understand each other.
+    - **Supports Perspectival Views**: Enables the same underlying information to be presented in different ways suitable for various applications or users.
+    - **Overcomes Semantic Gaps**: Bridges differences in terminology and conceptualization across different domains represented in the SWM.
+
+*All sections populated with hypothetical definitions based on the task requirements. Awaiting actual source material for definitive content.*

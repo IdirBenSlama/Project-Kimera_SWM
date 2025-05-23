@@ -1,0 +1,221 @@
+# Part 4: The Contradiction Engine: Dynamics of Inconsistency and Systemic Evolution
+
+## 4.1. Introduction: Beyond Passive Detection to Active Contradiction Management
+
+Section 1, Axiom III, established the principle of the "Constructive Nature of Contradiction," defining contradictions not as mere failures but as critical informational events that trigger inquiry and learning. Building upon this, the SWM incorporates a sophisticated suite of mechanisms collectively known as the Contradiction Engine. This Engine recrafts the notion of contradiction handling from passive detection and resolution to a dynamic process of active measurement, characterization, and strategic routing.
+
+The Contradiction Engine is responsible for identifying inconsistencies, quantifying their potential impact and nature, and then channeling the "energy" inherent in these dissonances toward outcomes that ultimately serve the SWM's Primal Law (R₀): either the controlled collapse of untenable informational structures or a "surge" of adaptive evolution and systemic reconfiguration. This section details the architecture and operation of the Contradiction Engine, including its detection inputs, measurement metrics, amplification protocols, routing logic, and the crucial Contradiction Type Taxonomy (CTT) that informs its decision-making.
+
+## 4.2. Core Architecture and Operational Flow of the Contradiction Engine
+
+The Contradiction Engine is not a monolithic block but a distributed set of processes and heuristics integrated with Kimera agents, the Hyper-Coherence Framework (HCF), Temporal Phase Information Resonance (TPIR), and Vault Logic. Its operational flow generally follows these stages:
+
+1.  **Omnipresent Detection & Ingestion:** The Engine continuously receives signals of potential contradictions from various SWM subsystems (detailed in Axiom III, Section 1.4, and expanded in 4.3).
+2.  **Taxonomic Classification (CTT):** Each detected potential contradiction is immediately classified using the Contradiction Type Taxonomy (see Section 4.7) to determine its fundamental nature and likely implications.
+3.  **Multi-dimensional Measurement:** The classified contradiction is then measured against a range of metrics to quantify its severity, scope, and potential for systemic impact (see Section 4.4).
+4.  **Strategic Amplification (Conditional):** Based on its type and initial measurements, some contradictions may be strategically amplified to elicit more information or to overcome systemic inertia (see Section 4.5).
+5.  **Dynamic Routing (Collapse or Surge):** Finally, based on its comprehensive profile (type, measurements, amplification response), the Engine, often in concert with HCF, routes the contradiction towards a process pathway leading to either controlled informational "collapse" or a generative "surge" (see Section 4.6).
+6.  **Vault Interaction:** Throughout this process, the Engine interacts with Vault Logic, logging its operations, retrieving historical context (Scars, Echo Layers), and ultimately ensuring that the outcomes (collapse or surge) are appropriately recorded as new Scars.
+
+## 4.3. Detection Mechanisms and Ingestion Pathways into the Engine
+
+The Contradiction Engine relies on a distributed network of detection mechanisms embedded throughout the SWM's architecture. These mechanisms continuously monitor for, identify, and signal potential informational dissonances. The prompt and accurate ingestion of these signals is critical for the Engine's effective operation.
+
+1.  **Primary Sources of Contradiction Detection:**
+    The Engine ingests contradiction signals from a wide array of SWM processes and components, including but not limited to:
+    *   **Geoid-Level Validation (Section 2.1.3):**
+        *   **Internal Coherence Checks (ICC):** Automated validation of a Geoid's internal information against its own defined schema, logical consistency rules, and STBD.
+        *   **Epistemic State Vector (ESV) Anomalies:** Detection of implausible ESV states (e.g., extremely low confidence in high-veracity data, conflicting perspective signatures within a supposedly unified Geoid).
+    *   **Inter-Geoid Relational Analysis:**
+        *   The SWM's relational fabric is monitored for logical impossibilities (e.g., cyclical containment `A contains B, B contains A`), broken referential integrity, or violations of defined relational semantics.
+    *   **Schema and Ontology Enforcement:**
+        *   Failures during data ingestion or transformation where information violates established SWM global or domain-specific schemata and ontologies.
+    *   **Kimera Agent Cognitive Dissonance:**
+        *   Kimera agents, during their reasoning, planning, or interaction cycles, may encounter information that directly contradicts their existing beliefs, operational models, or the expected outcomes of their actions. These internal dissonances are flagged to the Engine.
+    *   **Hyper-Coherence Framework (HCF) Audits:**
+        *   The HCF proactively audits SWM regions for subtle or emergent incoherencies, comparing patterns against learned coherence norms and R₀ alignment.
+    *   **Temporal Phase Information Resonance (TPIR) Flags:**
+        *   TPIR processes may identify contradictions related to temporal sequencing, causality violations, or inconsistent Geoid states across different time phases.
+    *   **Translation and Ingestion Failures:**
+        *   The process of translating external data into SWM's canonical forms can flag semantic ambiguities or direct contradictions with existing information.
+    *   **Externally Reported Anomalies:**
+        *   Mechanisms exist for human supervisors or external trusted systems to report observed inconsistencies directly into the SWM.
+
+2.  **Standardized Contradiction Signal Format:**
+    Upon detection, a raw contradiction signal is transformed by its detecting component into a standardized "Potential Contradiction Object" (PCO). This object includes:
+    *   **`pco_guid`**: A unique identifier for this specific potential contradiction instance.
+    *   **`detection_timestamp`**: Time of detection.
+    *   **`reporting_source_id`**: Identifier of the SWM component or agent that detected and reported the PCO.
+    *   **`suspected_contradictory_elements_refs`**: An array of references (e.g., GUIDs, specific data paths within Geoids, rule IDs) to the SWM elements believed to be in contradiction.
+    *   **`initial_evidence_payload`**: A snapshot of the conflicting data values, violated rules, or anomalous log entries that constitute the evidence for the contradiction.
+    *   **`preliminary_classification_tags` (Optional):** The reporting source may suggest initial tags from the Contradiction Type Taxonomy (CTT) if immediately apparent.
+
+3.  **Ingestion and Queuing Protocol:**
+    *   PCOs are transmitted via a high-availability messaging bus to the Contradiction Engine's central processing queue.
+    *   The Engine acknowledges receipt and logs the PCO, initiating its formal processing pipeline (classification, measurement, etc.).
+    *   No PCO is dismissed at ingestion; all reported potential contradictions are subject to at least initial classification and measurement to ensure R₀'s fallibility management is comprehensively applied. Trivial or rapidly self-resolving issues may be quickly dispositioned after measurement, but not before.
+
+## 4.4. Multi-Dimensional Measurement of Contradictions
+
+Once a Potential Contradiction Object (PCO) is ingested and classified according to the Contradiction Type Taxonomy (CTT, see Section 4.7), the Contradiction Engine subjects it to a rigorous multi-dimensional measurement process. This critical stage moves beyond mere detection to quantify the contradiction's characteristics, potential impact, and systemic context. The resulting metrics form a "Contradiction Profile Vector" (CPV), which informs subsequent decisions regarding amplification and routing.
+
+1.  **Purpose of Measurement:**
+    *   To objectively assess the magnitude, severity, and potential ramifications of the contradiction.
+    *   To provide a quantitative and qualitative basis for differential handling of diverse contradiction types.
+    *   To identify contradictions that require immediate high-priority attention versus those that can be monitored or resolved through less urgent pathways.
+    *   To create a detailed profile that can be logged in the Vault, contributing to long-term systemic learning about SWM's informational dynamics.
+
+2.  **Key Measurement Dimensions and Illustrative Metrics:**
+    The Contradiction Engine evaluates PCOs along several dimensions, employing a range of metrics. The specific metrics applied may be adapted based on the PCO's CTT classification.
+    *   **A. Scope and Reach:**
+        *   `affected_element_count`: Number of discrete information elements directly implicated in the contradiction.
+        *   `primary_geoid_span`: Number of unique Geoids containing the primary contradictory elements.
+        *   `estimated_network_impact_radius`: An HCF-computed estimate of the number of other Geoids likely to be affected within N degrees of relational separation if the contradiction is not resolved.
+        *   `critical_dependency_overlap`: Degree to which critical SWM processes or agent tasks depend on the contradictory information.
+    *   **B. Severity and Intensity:**
+        *   `semantic_variance_score` (for semantic contradictions): A measure of the conceptual distance or incompatibility between conflicting terms/interpretations, derived from SWM's ontologies and semantic networks.
+        *   `logical_negation_level`: (e.g., direct `A vs ¬A`, conflicting probabilistic distributions, violation of integrity constraints).
+        *   `veracity_discrepancy_index`: The difference in confidence scores, source reliability, or ESV quality indicators between the conflicting information elements.
+        *   `axiom_violation_severity` (if applicable): If the contradiction involves a violation of a foundational SWM axiom (R₀, Axiom II, Axiom III) or a core operational rule, this metric assesses the severity of that violation.
+    *   **C. Persistence and Temporality (often requires Vault query):**
+        *   `observed_duration`: The time elapsed since this specific PCO was first detected or since a similar contradiction was last active in this locus.
+        *   `recurrence_pattern_id`: If this contradiction matches known historical patterns (from Scars or past PCOs in the Vault), this identifies the pattern, informing its likely behavior.
+        *   `temporal_coherence_disruption` (via TPIR): Measure of how this contradiction disrupts the expected temporal sequencing or causal chain of events.
+    *   **D. Impact on R₀ Alignment:**
+        *   `local_icc_degradation_estimate`: Estimated impact on the Information Corpus Coherence (ICC) of the directly affected Geoids.
+        *   `fallibility_obscuration_risk`: Assessment of whether the contradiction creates a misleading sense of certainty or masks underlying data fallibility.
+        *   `verifiability_occlusion_score`: Degree to which the contradiction hinders the traceability of information to its evidential sources.
+    *   **E. Systemic Resonance and Propagation Potential (requires Vault/Echo Layer query):**
+        *   `current_echo_intensity_correlation`: Correlation of the contradiction with current high-intensity Echo activity in the surrounding SWM region.
+        *   `historical_echo_amplification_tendency`: Based on analysis of similar past contradictions (from Vaulted Echo Layers), the likelihood of this contradiction generating widespread, persistent, or disruptive Echoes.
+
+3.  **Generation of the Contradiction Profile Vector (CPV):**
+    The output of the measurement stage is the CPV, a structured data object associated with the PCO. The CPV contains the PCO's CTT classification and the values for all applied metrics. This vector provides a rich, nuanced "signature" for each contradiction.
+
+4.  **Role of SWM Frameworks in Measurement:**
+    *   **HCF:** Provides crucial input for metrics related to network impact, coherence degradation, and comparison against systemic norms.
+    *   **TPIR:** Contributes metrics regarding temporal disruption and the validation of information states across time.
+    *   **Vault Logic:** Essential for metrics involving persistence, recurrence, historical Echo patterns, and providing context from past Scars.
+    *   **Kimera Agents (Specialized):** Certain complex measurements, particularly those involving deep semantic analysis or predictive modeling of impact, may be delegated to specialized Kimera analytical agents.
+
+The CPV is then passed to the next stages of the Contradiction Engine: strategic amplification (if warranted) and dynamic routing.
+
+## 4.5. Strategic Amplification of Contradictions
+
+A defining characteristic of the SWM Contradiction Engine is its capacity for strategic, controlled amplification of certain contradictions. Amplification is not intended to worsen or arbitrarily escalate inconsistencies, but rather to make subtle, deeply embedded, or ambiguously defined contradictions more discernible, to gather further diagnostic information, or to overcome systemic inertia that might otherwise allow a detrimental contradiction to persist. This process is carefully managed and invoked based on the Contradiction Profile Vector (CPV) and Contradiction Type Taxonomy (CTT) classification.
+
+1.  **Purposes of Strategic Amplification:**
+    *   **Enhanced Visibility:** To elevate the "signal strength" of low-intensity but potentially high-impact contradictions (e.g., subtle semantic drifts, nascent axiomatic violations) so they can be more effectively addressed by Kimera agents or HCF processes.
+    *   **Diagnostic Information Gathering:** To "perturb" the local informational environment around a contradiction in a controlled manner, thereby eliciting responses from connected Geoids or information elements that can help clarify the contradiction's true nature, scope, and dependencies.
+    *   **Overcoming Resolution Impasse:** When standard resolution protocols for a persistent contradiction fail, controlled amplification can serve to "unstick" the impasse by forcing a more definitive confrontation of the inconsistent elements.
+    *   **Robustness Testing (Proactive):** In certain contexts, the Engine might proactively amplify simulated or historically common contradiction types in specific SWM regions to test the resilience and responsiveness of local Geoids and coherence mechanisms.
+
+2.  **Triggers for Amplification (Based on CPV and CTT):**
+    The decision to amplify is rule-based and data-driven, triggered by specific configurations in a PCO's CPV and CTT classification. Examples include:
+    *   **High `fallibility_obscuration_risk` coupled with low initial `severity_intensity` metrics:** Suggests a hidden but dangerous issue.
+    *   **Suspected `axiom_violation_severity` where the evidence is currently ambiguous:** Amplification may clarify the violation.
+    *   **High `recurrence_pattern_id` for contradictions that previous Scar analysis indicates were sub-optimally resolved:** Suggests current approaches are insufficient.
+    *   **Contradictions located in Geoids with high `critical_dependency_overlap` where utmost clarity and resolution are paramount.**
+    *   **CTT types classified as "Latent" or "Systemic-Subtle" that require more active investigation.**
+
+3.  **Controlled Amplification Mechanisms:**
+    Amplification employs a suite of carefully monitored and bounded techniques:
+    *   **Focused Analytical Resource Allocation:** Assigning specialized Kimera analytical agents and increased SWM computational resources to intensively investigate the PCO, its implicated elements, and its surrounding informational neighborhood. This includes deeper Vault dives for related Scars, Echo Layers, and Mutation Trails.
+    *   **Targeted Echo Injection:** Generating controlled, localized "diagnostic Echoes" around the contradictory elements. The responses of nearby Geoids to these Echoes (e.g., changes in their ESV, generation of counter-Echoes) are monitored to map the contradiction's sphere of influence and dependencies.
+    *   **Variant Hypothesis Probing (Sandboxed):** For ambiguous semantic or logical contradictions, the Engine may instruct Kimera agents to formulate and test alternative interpretations or resolutions within a temporary, sandboxed SWM environment. The impact of each variant on local coherence (within the sandbox) is measured.
+    *   **Coherence Stress Testing:** Temporarily and locally increasing the "coherence demand" (e.g., tightening consistency rules, increasing the weight of veracity metrics) on the Geoids involved in the contradiction. This can force latent inconsistencies into a more detectable state.
+    *   **Escalated HCF/TPIR Scrutiny:** Flagging the PCO for prioritized and intensified review by relevant HCF and TPIR processes, which may deploy their own advanced diagnostic routines.
+
+4.  **Safeguards and Monitoring during Amplification:**
+    Amplification is a powerful tool and must be wielded with caution to prevent unintended destabilization:
+    *   **Bounded Operations:** All amplification activities are strictly time-boxed and resource-limited.
+    *   **Continuous CPV Monitoring:** The contradiction's CPV is monitored in near real-time during amplification. If metrics indicate a dangerous escalation (e.g., rapid広がり (hirogarisugi) of negative impact beyond defined thresholds), the amplification process is automatically throttled or terminated.
+    *   **HCF Oversight:** The Hyper-Coherence Framework provides oversight, capable of intervening if amplification threatens broader systemic stability.
+    *   **Reversibility Planning:** For certain amplification techniques (like variant probing), protocols for cleanly reverting any temporary changes are pre-defined.
+
+5.  **Outcome of Amplification:**
+    The primary outcome of successful amplification is an enriched and updated CPV for the PCO. This may include more precise measurements, confirmed CTT classifications, or newly identified dependencies. This refined CPV then enables a more informed and effective routing decision (to Collapse or Surge pathways). In some cases, amplification itself may trigger a local resolution if the process clarifies the issue sufficiently for standard agent protocols to take effect.
+
+## 4.6. Dynamic Routing: Pathways to Informational Collapse or Systemic Surge
+
+Following classification, measurement, and potential strategic amplification, the Contradiction Engine's core routing logic determines the subsequent trajectory of a Potential Contradiction Object (PCO) and its associated informational dissonance. This decision, informed by the comprehensive Contradiction Profile Vector (CPV) and Contradiction Type Taxonomy (CTT) classification, directs the PCO towards one of two primary pathways: controlled "Collapse" of irreconcilable information structures, or a generative "Surge" leading to systemic learning, adaptation, and evolution. This routing is a critical control point, typically arbitrated by or in close consultation with the Hyper-Coherence Framework (HCF).
+
+1.  **The "Collapse" Pathway: Principled Invalidation and Structural Pruning**
+    The Collapse pathway is invoked when a contradiction is deemed fundamentally irreconcilable, detrimental to SWM's coherence (R₀), and offers no constructive potential for learning or adaptation beyond excising the problematic elements.
+    *   **Primary Triggers for Collapse (derived from CPV/CTT):**
+        *   **Confirmed Axiomatic Violations:** Contradictions classified (CTT) and measured (CPV) as severe, persistent violations of foundational SWM axioms (R₀, II, III).
+        *   **Irresolvable Logical/Semantic Incompatibility:** High `severity_intensity` (e.g., `semantic_variance_score`, `logical_negation_level`) that remains intractable after repeated resolution attempts (including those following amplification).
+        *   **Critical Coherence Degradation:** Sustained, high `local_icc_degradation_estimate` that severely compromises the functionality or trustworthiness of affected Geoids or SWM regions, with no viable path to restoration.
+        *   **Terminal Obsolescence Confirmed:** Information identified as definitively obsolete and actively harmful to current understanding (e.g., a superseded safety protocol still linked in operational Geoids).
+        *   **Failure of Semantic Healing:** Inability of Vault-assisted regeneration (Section 3.7) to resolve a deep semantic fracture associated with the PCO.
+    *   **Operational Processes of Collapse:**
+        *   **Formal Invalidation:** The implicated information elements or Geoids are formally flagged with a "collapsed" status in their ESV or metadata.
+        *   **Geoid Collapse Invocation:** If an entire Geoid is the locus of the irreparable contradiction, its formal Collapse behavior (Section 2.1.4, Part 3) is initiated, leading to its operational cessation and archival.
+        *   **Targeted Information Pruning:** For contradictions localized to specific attributes or relational links, these elements are systematically nullified, deprecated, or severed under HCF oversight.
+        *   **Dependency Re-evaluation:** Kimera agents and HCF processes evaluate and reroute or invalidate other SWM elements or processes that were dependent on the collapsed information to prevent cascading failures.
+        *   **Obligatory Scar Formation (Vault Logic):** A detailed Scar is generated in the Vault, documenting the PCO, its final CPV, the rationale for collapse, the elements collapsed, and references to any broader semantic healing event. This Scar serves as a critical record for future SWM governance and learning (e.g., "do not repeat this data integration pattern").
+
+2.  **The "Surge" Pathway: Harnessing Dissonance for Generative Transformation**
+    The Surge pathway is invoked when a contradiction, despite its disruptive potential, is identified as a catalyst for positive systemic change, offering opportunities for learning, innovation, structural refinement, or the generation of new knowledge. It embodies the constructive aspect of Axiom III at a strategic level.
+    *   **Primary Triggers for Surge (derived from CPV/CTT):**
+        *   **Novel Perspectival Intersections (CTT):** Contradictions arising from the interaction of multiple, individually valid but previously uncompared, perspectives, where the dissonance highlights an opportunity for a more comprehensive, synthesized understanding.
+        *   **Productive Ambiguity/Paradox (CTT):** Contradictions that reveal underlying complexities or inadequacies in current SWM schemata or ontologies, suggesting areas where new distinctions or representational frameworks are needed.
+        *   **High `systemic_resonance_potential` with positive valence:** Contradictions that, through amplification, reveal a widespread need or opportunity for re-evaluation or refinement in a particular SWM domain.
+        *   **Successful Diagnostic Amplification:** Cases where strategic amplification (Section 4.5) not only clarified the contradiction but also uncovered valuable new information or relationships.
+        *   **"Challenge" Contradictions:** Those that directly challenge existing assumptions in a way that, if explored, could lead to significant model improvement.
+    *   **Operational Processes of Surge:**
+        *   **Initiation of Focused Inquiry:** The PCO and its CPV are routed to specialized Kimera "research" agents or dedicated HCF sub-processes tasked with exploring the generative potential of the contradiction.
+        *   **Schema/Ontology Evolution Proposal:** If the contradiction indicates limitations in SWM's representational framework, it may trigger a formal SWM governance process for evaluating and implementing schema or ontology modifications. This process is carefully managed and validated to ensure R₀ alignment.
+        *   **Hypothesis Generation and Testing:** Kimera agents may formulate new hypotheses arising from the contradiction, potentially instantiating new "exploratory Geoids" or sandboxed environments to test these hypotheses.
+        *   **Adaptive Strategy Development:** The "lesson" learned from the contradiction and its exploration can be formalized into new operational heuristics, updated Kimera agent behavior models, or refined HCF coherence-monitoring parameters. These are often reinjected via Vault Logic protocols (Section 3.6).
+        *   **Innovation Scaffolding:** The contradiction may highlight the need for entirely new SWM tools, processes, or agent capabilities, initiating a development cycle.
+        *   **Generative Scar Formation (Vault Logic):** A Scar is recorded in the Vault detailing the PCO, the "surge" decision, the exploratory pathways taken, and the new knowledge, structures, or processes generated. This "Surge Scar" is a positive learning record.
+
+3.  **Iterative Feedback and System Learning:**
+    The outcomes of both Collapse and Surge pathways, meticulously documented in the Vault via Scars and potentially new Mutation Trails or Echo Layers, provide critical feedback into the SWM's long-term learning cycles. HCF and specialized Kimera agents analyze these outcomes to refine the Contradiction Engine's own classification, measurement, amplification, and routing logic, making the SWM increasingly adept at managing inconsistency and leveraging it for growth.
+
+## 4.7. The Contradiction Type Taxonomy (CTT): Classifying Informational Dissonance
+
+Central to the Contradiction Engine's ability to manage inconsistencies with precision and strategic insight is the Contradiction Type Taxonomy (CTT). The CTT is a multi-axial classification framework used to categorize every Potential Contradiction Object (PCO) upon ingestion. This taxonomy provides a standardized language for describing the nature, locus, and potential impact of contradictions, enabling the Engine to apply differentiated measurement, amplification, and routing strategies. The CTT is a dynamic framework, itself subject to refinement over time as the SWM learns and evolves, with changes managed via Vault Logic.
+
+1.  **Purpose and Significance of the CTT:**
+    *   **Standardization:** Provides a common vocabulary and conceptual model for understanding and communicating about diverse types of contradictions across all SWM components and agents.
+    *   **Differential Diagnosis:** Enables the Contradiction Engine to move beyond generic inconsistency detection to a nuanced diagnosis of *why* and *how* information elements are in conflict.
+    *   **Informed Decision-Making:** The CTT classification is a primary input for the Engine's subsequent stages, heavily influencing the selection of measurement metrics, the decision to amplify (and how), and the ultimate routing towards Collapse or Surge pathways.
+    *   **Systemic Learning:** Analysis of the frequency and outcomes of different CTT classifications over time (via Vault records) allows the SWM to identify recurring systemic weaknesses, improve its schemata and ontologies, and refine agent behaviors.
+
+2.  **Core Axes of the Contradiction Type Taxonomy:**
+    Each PCO is classified along several orthogonal axes. The combination of classifications across these axes defines its CTT profile.
+
+    *   **Axis 1: Locus of Incoherence (LOI) - *Where is the conflict centered?***
+        *   `LOI-G-Internal`: **Intra-Geoid.** The contradiction exists primarily within the internal information corpus, STBD, or ESV of a single Geoid (e.g., conflicting attributes, internal logical inconsistency).
+        *   `LOI-G-Relational`: **Inter-Geoid.** The contradiction arises from the relationships or interactions between two or more Geoids (e.g., incompatible boundary definitions, cyclical dependencies, inconsistent states between linked Geoids).
+        *   `LOI-S-SchemaCompliance`: **Schema/Ontology Violation.** Conflict due to non-conformance with established SWM global or domain-specific schemata, data models, or ontological definitions.
+        *   `LOI-A-AxiomaticIntegrity`: **Axiomatic Conflict.** The contradiction suggests a violation of one or more foundational SWM axioms (R₀, Axiom II, Axiom III) or core operational laws.
+        *   `LOI-P-ProcessExecution`: **Process/Agent Anomaly.** Conflict arising from the output or behavior of an SWM process, Kimera agent, or automated workflow (e.g., an agent consistently producing data that contradicts verified sources).
+        *   `LOI-X-ExternalOrigin`: **External Data Conflict.** Conflict introduced via data ingestion from an external source that clashes with existing SWM information or standards.
+
+    *   **Axis 2: Nature of Dissonance (NOD) - *What is the fundamental type of mismatch?***
+        *   `NOD-L-Logical`: **Logical Contradiction.** Direct logical negation (e.g., `X` and `¬X` asserted simultaneously), violation of formal logical rules, constraint violations.
+        *   `NOD-S-Semantic`: **Semantic Incompatibility.** Conflict based on meaning (e.g., misuse of homonyms, inconsistent application of synonyms, attribution of mutually exclusive semantic tags, conceptual misalignments).
+        *   `NOD-T-TemporalCoherence`: **Spatio-Temporal Conflict.** Inconsistencies in spatial definitions (e.g., impossible overlaps, containment violations not covered by LOI-G-Relational), temporal sequencing errors, causality violations, or conflicting timestamps for supposedly synchronous events.
+        *   `NOD-V-VeracityDivergence`: **Veracity/Confidence Conflict.** Significant discrepancy between the asserted information and its associated confidence scores, ESV quality, or the reliability of its provenance, especially when compared to conflicting information with higher veracity.
+        *   `NOD-P-PerspectivalDifference`: **Perspectival Conflict.** Dissonance arising from the legitimate, acknowledged differences in information due to varying observational contexts, viewpoints, or levels of abstraction. (Often a candidate for Surge if other metrics are favorable).
+        *   `NOD-E-EthicalGuideline` (Potentially): **Ethical/Operational Mandate Conflict.** (If SWM has explicit ethical rules) Conflict with overarching ethical principles or operational mandates governing SWM or Kimera agent behavior.
+
+    *   **Axis 3: Assessed Resolution Tractability (ART) - *How straightforward does resolution appear?***
+        *   `ART-D-Deterministic`: **Deterministic Resolution.** The contradiction appears resolvable through the direct application of existing SWM rules, algorithms, or clearly defined Kimera agent protocols (e.g., choosing the data with higher veracity, correcting a known schema violation).
+        *   `ART-A-AmbiguousComplex`: **Ambiguous/Complex.** Requires further diagnostic information, strategic amplification, or complex reasoning by specialized Kimera agents or HCF intervention to fully understand and resolve. Root cause is not immediately obvious.
+        *   `ART-N-NovelUnprecedented`: **Novel/Unprecedented.** Represents a new type of conflict or a known type in an entirely new context, for which existing resolution strategies may be inadequate. Often a candidate for the Surge pathway, as it may necessitate learning or SWM evolution.
+        *   `ART-I-ApparentlyIrreconcilable`: **Potentially Irreconcilable.** Initial assessment suggests the conflict may be fundamentally unresolvable within current SWM schemata, ontologies, or axiomatic constraints. A strong candidate for the Collapse pathway if confirmed by measurement and amplification.
+
+    *   **Axis 4: Projected Operational Impact (POI) - *What is the potential scale of disruption?***
+        *   `POI-1-Negligible`: Localized, minor, with no immediate or foreseeable impact on broader SWM operations or data integrity. May be queued for low-priority automated resolution.
+        *   `POI-2-Localized`: Affects the integrity or utility of specific Geoids or a localized process, but unlikely to propagate widely if contained.
+        *   `POI-3-SignificantRegional`: Potential to disrupt functionality or compromise data integrity across a notable SWM sub-network or a significant operational domain. Requires timely intervention.
+        *   `POI-4-CriticalSystemic`: High potential for cascading failures, corruption of foundational data/schema, widespread loss of coherence, or direct undermining of R₀ principles. Requires immediate, high-priority attention.
+
+3.  **CTT Profile Generation and Utilization:**
+    For each PCO, the Contradiction Engine generates a CTT Profile (e.g., `[LOI-G-Internal, NOD-L-Logical, ART-D-Deterministic, POI-1-Negligible]`). This profile, combined with the detailed metrics in the CPV, provides the rich, multi-faceted understanding necessary for the Engine's sophisticated downstream processing (amplification, routing). The CTT profile is also recorded in Scars, enabling long-term analysis of contradiction patterns and the effectiveness of different resolution pathways for different types of dissonance.
+
+*(End of Section 4 on the Contradiction Engine)*

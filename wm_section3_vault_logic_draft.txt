@@ -1,0 +1,203 @@
+# Part 3: Vault Logic: Memory, Learning, and Semantic Healing
+
+## 3.1. Introduction: The SWM Vault as a Dynamic Archive and Regenerative System
+
+The Spatial Web Model (SWM), as defined by its foundational axioms (Section 1) and the dynamic nature of its core operational units, Geoids (Section 2), requires a sophisticated backend system for managing its historical states, learning from its operational experiences, and ensuring long-term semantic integrity. This system is encapsulated within the SWM Vault. The Vault is not merely a passive data archive but an active, integral component of the SWM's cognitive architecture. It provides the mechanisms for durable memory, systemic learning, and "semantic healing"—the capacity of the SWM to recover from informational stress, adapt to profound changes, and maintain coherence over extended operational lifecycles.
+
+This section recrafts the concept of Vault Logic, detailing the specific processes and structures that enable these critical functions. These include the formal mechanisms of Scar formation, the novel concepts of Echo layering and mutation trails, the protocols for reinjecting historical insights into current operations, and the Vault's ultimate role in providing semantic elasticity and addressing informational fractures. Vault Logic is indispensable for the SWM's long-term viability and its continuous evolution towards a more accurate and resilient model of reality.
+
+## 3.2. Core Functions and Architecture of the SWM Vault
+
+The SWM Vault executes its functions through a distributed, yet logically centralized, architecture. Its core responsibilities are:
+
+1.  **Durable Record Keeping:** Systematically archiving significant states, events, and transformations within the SWM. This includes the structured storage of Scars, layered Echoes, and mutation trails.
+2.  **Pattern Analysis and Learning:** Providing infrastructure and tools (potentially utilized by specialized Kimera agents) to analyze historical data for patterns, identify causes of past incoherencies or successes, and extract knowledge that can refine SWM operations, schemata, or agent behaviors.
+3.  **Information Recourse and Reinjection:** Enabling the controlled retrieval and reintroduction of archived information or derived insights back into the active SWM to support decision-making, resolve ambiguities, or heal semantic fractures.
+4.  **Integrity Oversight:** Monitoring the long-term semantic health of the SWM and providing the foundational data necessary for higher-level frameworks like HCF and TPIR to operate effectively across extended timescales.
+
+The Vault's architecture ensures that its contents are immutable (records are appended, not overwritten), traceable, and indexed for efficient query and analysis, consistent with R₀'s demand for verifiability and fallibility management.
+
+## 3.3. Scar Formation and Management: The Imprints of SWM Evolution
+
+Scars are fundamental constructs within Vault Logic, serving as persistent, immutable records of significant evolutionary events, critical state transitions, and resolved systemic stresses within the SWM. They are not merely logs but structured informational assets crucial for auditability, learning, and semantic memory.
+
+1.  **Formal Definition:** A Scar is an operationally generated, uniquely identifiable, and immutable data structure stored within the SWM Vault. It encapsulates the essential details of a specific, significant event that has impacted the state, structure, or semantic integrity of one or more SWM components (Geoids, schemata, ontological frameworks). Scars represent the SWM's "memory" of transformative moments.
+
+2.  **Obligatory Triggers for Scar Formation:** Scar creation is not arbitrary but is an obligatory outcome of specific, predefined SWM operations and events, ensuring that critical junctures in the SWM's history are durably recorded. These triggers include:
+    *   **Geoid State Transformation (as per Section 2.1.4):**
+        *   **Geoid Collapse:** The archival of a Geoid's final state is accompanied by a Scar detailing the collapse event.
+        *   **Significant Geoid Deformation:** Major structural adaptations to a Geoid, particularly those resulting from the resolution of high-impact contradictions or large-scale information integration, mandate Scar formation linking pre- and post-deformation states.
+    *   **Critical Contradiction Resolution (as per Axiom III):** The successful resolution of contradictions classified as "critical" by the Contradiction Management Protocol (CMP), especially those requiring intervention by HCF or leading to substantial model refinement, results in a Scar.
+    *   **Schema and Ontology Evolution:** Deliberate, system-wide modifications to core SWM schemata, foundational ontologies, or fundamental rule sets, following governance protocols, are recorded as Scars to ensure a traceable history of the SWM's representational framework.
+    *   **Semantic Fracture and Healing Events:** Detection of a significant semantic fracture (see Section 3.7) and the subsequent application of healing protocols invariably result in Scar formation documenting the event and the restorative actions.
+    *   **High-Authority System Directives:** Specific evolutionary operations initiated by globally authorized Kimera agents or SWM governance modules (e.g., controlled merging of major data sources, intentional deprecation of a large Geoid network) can be designated as Scar-worthy events.
+
+3.  **Standardized Structure of a Scar Record:** Each Scar adheres to a standardized SWM data structure to ensure consistency and facilitate analysis. Key fields include:
+    *   **`scar_guid`**: A unique, immutable identifier for the Scar itself.
+    *   **`event_timestamp`**: Precise timestamp of the event's culmination and Scar generation.
+    *   **`event_type`**: A controlled vocabulary term defining the trigger (e.g., `GeoidCollapse`, `ContradictionResolution`, `SchemaUpdate`, `SemanticFractureHealed`).
+    *   **`primary_subjects_guid`**: An array of GUIDs of the primary Geoids, schemata, or SWM components directly involved or transformed by the event. This includes pre-event and post-event GUIDs/versions where applicable.
+    *   **`event_description_payload`**: Structured metadata detailing the specifics of the event. This payload's schema varies by `event_type` but typically includes:
+        *   For `ContradictionResolution`: Nature of the contradiction, references to conflicting information elements, resolution strategy employed, and summary of outcome.
+        *   For `GeoidCollapse`: Reason for collapse, reference to final archived state.
+        *   For `SchemaUpdate`: Version numbers, summary of changes, link to detailed change logs (potentially a Mutation Trail, see Section 3.5).
+    *   **`validation_authority_ref`**: Reference to the HCF process instance, TPIR validation log, or authorized agent/governance module that sanctioned or managed the event.
+    *   **`causal_event_chain_refs` (Optional):** Links to other Scars or event logs that directly contributed to this event, enabling traceability of complex event sequences.
+
+4.  **Vault Storage, Immutability, and Accessibility:**
+    *   Scars are stored within the SWM Vault's append-only, high-durability storage layer.
+    *   Once written, a Scar record is immutable. Any necessary corrections or augmentations are achieved by creating a new Scar that explicitly references and supersedes or annotates the original.
+    *   Scars are indexed and queryable by Kimera agents and SWM analysis tools, subject to appropriate authorization, to support learning and diagnostic functions.
+
+5.  **Operational Role and Utility within Vault Logic:**
+    *   **Verifiable History (R₀ Compliance):** Scars provide an auditable and verifiable history of the SWM's evolution, crucial for understanding current states and debugging anomalies.
+    *   **Foundation for Systemic Learning:** Analysis of Scar populations (e.g., frequency of certain event types, patterns in contradiction resolutions) by specialized Kimera agents can identify recurring issues, validate the effectiveness of resolution strategies, and inform adaptations to SWM protocols or schemata.
+    *   **Context for Semantic Healing:** When addressing new semantic fractures, past Scars detailing similar events or resolutions provide critical context and potential solution pathways for Kimera agents.
+    *   **Memory and Precedent:** Scars act as the SWM's long-term memory of significant precedents, informing future governance decisions and evolutionary trajectories.
+
+## 3.4. Echo Layering and Aggregate Memory: Capturing Systemic Resonance
+
+While Scars record discrete, significant events, Echoes (as previously introduced conceptually) represent the transient, propagating effects of information and actions throughout the SWM. Vault Logic introduces "Echo Layering," a mechanism to capture, aggregate, and analyze these ephemeral phenomena over time, transforming them into a unique form of systemic memory that complements the event-based memory of Scars.
+
+1.  **From Transient Echoes to Vaulted Layers:**
+    *   **Selective Harvesting:** Not all live Echoes are individually archived. Instead, specialized SWM processes, potentially guided by Kimera agents or TPIR analysis, monitor the "Echo-sphere." Echoes exhibiting specific characteristics (e.g., high intensity, wide propagation, recurrence in relation to specific Geoids or query patterns, or those preceding significant Scar-forming events) are selectively harvested for layering.
+    *   **Aggregation Logic:** Harvested Echo data is not stored raw but is processed into aggregated "Echo Layers." This aggregation can occur along multiple dimensions:
+        *   **Temporal Layers:** Summarizing Echo activity across the entire SWM or specific regions/Geoid networks over defined time epochs (e.g., daily, weekly).
+        *   **Thematic Layers:** Aggregating Echoes related to specific semantic themes, query types, or categories of agent activity.
+        *   **Spatial/Network Density Layers:** Identifying and recording areas or sub-networks within the SWM that consistently exhibit high degrees of Echo convergence or divergence, indicating information "hotspots" or "sinks."
+
+2.  **Structure of an Echo Layer Record:**
+    An Echo Layer Record in the Vault typically includes:
+    *   **`echo_layer_guid`**: A unique identifier for the aggregated layer.
+    *   **`aggregation_period_start` / `aggregation_period_end`**: Timestamps defining the epoch of aggregation.
+    *   **`aggregation_type`**: (e.g., `TemporalSummary`, `ThematicFocus`, `NetworkDensity`).
+    *   **`spatial_focus_refs` (Optional):** Links to Geoids or regions primarily associated with the aggregated Echoes.
+    *   **`semantic_focus_terms` (Optional):** Keywords or ontological concepts central to the aggregated Echoes.
+    *   **`aggregated_metrics_payload`**: Data representing the aggregated Echo characteristics, such as:
+        *   `intensity_distribution`: Statistical summary of Echo strengths.
+        *   `propagation_vectors`: Dominant pathways of Echo travel.
+        *   `source_geoid_profiles`: Profiles of Geoids that were primary originators of the harvested Echoes.
+        *   `sentiment_map` (if applicable and derivable): Abstracted indication of the "nature" of information being propagated.
+    *   **`correlation_refs` (Optional):** Links to Scars or other Echo Layers that show strong temporal or semantic correlation.
+
+3.  **Operational Role and Utility of Echo Layers:**
+    *   **Detecting Emergent Patterns and Weak Signals:** Aggregated Echo data can reveal subtle trends, incipient consensus or dissent, or slowly forming information hotspots that would be invisible if only discrete events (Scars) were analyzed. This is crucial for proactive coherence management by HCF.
+    *   **Contextualizing Major Events:** Echo Layers provide the "atmospheric context" surrounding Scar-forming events. Analyzing the Echo activity before and after a major Geoid collapse or contradiction resolution can yield insights into causality and systemic impact.
+    *   **Mapping Information Influence and Systemic Resonance:** Over time, Echo Layers can map the typical pathways of information propagation, identify highly influential Geoids or information sources, and reveal how different parts of the SWM "resonate" with specific types of information or events.
+    *   **Input for Predictive Modeling and Anomaly Detection:** Historical Echo Layer patterns can be used by Kimera agents to train models for predicting future areas of high information activity, potential contradiction hotspots, or deviations from normal systemic resonance that might indicate an emerging issue.
+    *   **Understanding SWM's "Attentional Focus":** Echo Layers provide a macroscopic view of what topics, regions, or types of information the SWM and its agents were most actively "engaged with" during specific periods, offering insights into the system's operational focus.
+    *   **Informing Reinjection Strategies:** Knowledge of past Echo patterns can help optimize the reinjection of information from the Vault (see Section 3.6) by targeting areas most likely to resonate positively with the reintroduced data.
+
+4.  **Relationship to Live Echoes and Other Vault Constructs:**
+    *   Echo Layers are derived from, but distinct from, live, transient Echoes in the operational SWM. They are historical summaries, not real-time signals.
+    *   They complement Scars by providing a continuous, aggregated view of systemic activity between discrete, high-impact events. A Scar might explain *what* happened; Echo Layers help explain the *conditions leading up to it* and the *broader ripple effects*.
+
+## 3.5. Mutation Trails and Fine-Grained Information Lineage
+
+While Scars mark significant evolutionary events and Echo Layers capture aggregate systemic resonance, Mutation Trails provide the most granular level of historical record within Vault Logic. They offer a high-fidelity, temporally-ordered log of specific state changes to individual SWM information entities, ensuring complete traceability and lineage for critical data elements.
+
+1.  **Definition and Purpose:**
+    A Mutation Trail is a chronologically sequenced log of discrete modifications applied to a specific, identifiable SWM data element or property. Its core purpose is to provide an exhaustive and verifiable history of that element's evolution, detailing every significant alteration from its instantiation or last major state revision (as potentially marked by a Scar). This facilitates forensic analysis, supports complex data validation, and enables a deep understanding of information micro-evolution.
+
+2.  **Scope and Granularity:**
+    Mutation Trails operate at a finer granularity than Scars. For instance, if a Scar records a "GeoidDeformation" event, the Mutation Trails associated with that Geoid would enumerate the specific sequence of attribute changes, boundary point adjustments, ESV updates, and relational modifications that constituted that overall deformation. Tracked elements typically include:
+    *   Individual attributes within a Geoid's Epistemic State Vector (ESV).
+    *   Specific components of a Geoid's Spatio-Temporal Boundary Definition (STBD).
+    *   Creation, deletion, or modification of individual relational links between Geoids (including changes to type or strength).
+    *   Changes to specific rules within SWM operational protocols or ontological frameworks.
+    *   Updates to metadata fields within Scars or Echo Layer records themselves (as meta-mutation trails, ensuring full auditability of the Vault).
+
+3.  **Structure of a Mutation Trail Entry:**
+    Each entry in a Mutation Trail is a timestamped record detailing a single mutation:
+    *   **`trail_id`**: Identifier for the specific Mutation Trail, often linked to the GUID of the entity whose mutations are being tracked.
+    *   **`mutation_sequence_id`**: A sequential identifier within the trail.
+    *   **`mutation_timestamp`**: Precise time of the mutation.
+    *   **`target_entity_guid`**: The GUID of the SWM entity (Geoid, Relationship, Rule, etc.) whose element was mutated.
+    *   **`target_element_path`**: A structured path expression identifying the specific element within the target entity that was changed (e.g., `Geoid[GUID].ESV.ConfidenceScore`, `Relationship[GUID].Strength`).
+    *   **`previous_value_snapshot`**: A representation of the element's value immediately before the mutation.
+    *   **`new_value_snapshot`**: A representation of the element's value immediately after the mutation.
+    *   **`mutation_source_ref`**: Identifier of the agent (Kimera GUID), SWM process (e.g., HCF instance ID, TPIR cycle ID), or system event that initiated the mutation.
+    *   **`linked_scar_guid` (Optional):** If this mutation is part of a larger event recorded as a Scar, this field links to it.
+    *   **`justification_payload` (Optional):** Brief metadata or reference to logs explaining the reason for the mutation.
+
+4.  **Vault Storage, Linkage, and Immutability:**
+    *   Mutation Trails are stored within the SWM Vault, typically co-located or tightly indexed with the entities they describe and any associated Scars or Echo Layers.
+    *   Like Scars, Mutation Trail entries are treated as immutable once recorded.
+    *   They are designed for efficient querying based on entity GUID, time range, mutation source, or element path.
+
+5.  **Operational Role and Utility within Vault Logic:**
+    *   **Forensic Root Cause Analysis:** Enabling Kimera agents or human analysts to perform deep dives into the history of specific data elements to understand how an anomalous or unexpected state was reached. This is critical for debugging complex SWM behaviors and for validating the integrity of information used in critical decisions.
+    *   **Enhanced Auditability and Compliance (R₀):** Providing an extremely detailed audit trail for sensitive information or critical SWM components, supporting compliance with governance policies and demonstrating adherence to R₀'s verifiability principle.
+    *   **Understanding Micro-Evolutionary Dynamics:** Revealing incremental changes and subtle evolutionary pathways that occur between major, Scar-worthy events. This can inform a more nuanced understanding of SWM behavior and the dynamics of the phenomena it models.
+    *   **Supporting Complex Semantic Healing:** In cases of subtle semantic drift or corruption, Mutation Trails can help pinpoint the exact origin and propagation pathway of the erroneous information, enabling more targeted and effective healing interventions.
+    *   **Data Quality Assessment:** Analysis of mutation patterns (e.g., frequency, volatility of specific elements) can contribute to ongoing data quality assessments and highlight areas of informational instability.
+
+## 3.6. Reinjection Protocols: Activating Historical Knowledge from the Vault
+
+The SWM Vault is more than a repository; it is an active source of knowledge that can be selectively reintroduced or "reinjected" into the live SWM to inform current operations, guide learning, and support semantic healing. Reinjection Protocols govern how historical information (Scars, Echo Layers, Mutation Trails, and insights derived from them) is responsibly and effectively utilized.
+
+1.  **Core Purposes of Reinjection:**
+    *   **Contextual Enrichment:** Providing historical context to current Geoids or situations, enabling Kimera agents to make more informed interpretations and decisions (e.g., understanding that a current anomaly mirrors a past event detailed in a Scar).
+    *   **Guidance for Agent Behavior:** Allowing Kimera agents to query the Vault for precedents, past resolutions to similar problems, or patterns of success/failure, thereby learning from historical experience.
+    *   **Validation and Hypothesis Testing:** Using patterns from Echo Layers or detailed Mutation Trails to validate current hypotheses about system behavior or external phenomena.
+    *   **Seeding and Calibration:** Utilizing well-validated historical Geoid states or configurations from the Vault to seed new Geoids or recalibrate existing ones in areas with sparse current information.
+    *   **Initiating Semantic Healing:** Supplying crucial historical data (e.g., last known coherent states from Mutation Trails, successful contradiction resolution strategies from Scars) to guide the repair of semantic fractures (see Section 3.7).
+    *   **Proactive System Adaptation:** Periodically reinjecting learned heuristics or updated risk profiles derived from long-term Vault analysis to refine HCF parameters, TPIR models, or Kimera agent operational strategies.
+
+2.  **Triggers for Invoking Reinjection Protocols:**
+    *   **Agent-Initiated Inquiry:** Kimera agents explicitly querying the Vault for specific historical data relevant to an ongoing task or decision.
+    *   **HCF Intervention:** The Hyper-Coherence Framework, when encountering complex incoherencies, may trigger reinjection of relevant Scars or patterns to understand the anomaly's genesis or find historical resolution methods.
+    *   **TPIR Validation Cycles:** Temporal Phase Information Resonance processes may query Vault records (e.g., past Geoid states from Mutation Trails) to validate the temporal consistency of current information.
+    *   **Semantic Fracture Detection:** The identification of a semantic fracture automatically triggers protocols to retrieve relevant historical data from the Vault that might aid in diagnosis and repair.
+    *   **Scheduled Learning Cycles:** Predefined SWM processes or high-level Kimera agents may periodically query and analyze Vault data to extract generalizable insights for system-wide optimization, which are then reinjected as updated guidelines or parameters.
+
+3.  **Mechanisms and Safeguards for Reinjection:**
+    Reinjecting historical information into a live, dynamic system requires careful management to ensure it enhances, rather than disrupts, current coherence and accuracy (R₀ compliance).
+    *   **Contextual Translation and Adaptation:** Vault data is rarely reinjected "as is." It typically undergoes translation (Axiom II) to align its semantics and structure with the current SWM operational context. This may involve abstracting insights, summarizing trends, or highlighting specific relevant details.
+    *   **Epistemic Tagging of Reinjected Information:** Reinjected data or insights are clearly tagged with metadata indicating their origin (Vault), their historical nature, and the confidence attributed to their current relevance by the reinjection process. This allows other SWM processes and agents to treat this information appropriately.
+    *   **Sandboxed Evaluation (Where Applicable):** For potentially disruptive reinjections (e.g., proposing a significant Geoid state rollback based on historical data), the proposed changes may first be evaluated in a sandboxed SWM environment or against a copy of the relevant Geoids to assess impact before live application.
+    *   **Gradual Propagation and Influence:** Reinjected information, especially if it represents a change to operational parameters or a new heuristic, may be propagated gradually or its influence initially localized to allow for monitoring and adjustment.
+    *   **Conflict Resolution with Current Veracity:** Protocols must exist to manage conflicts between reinjected historical information and high-veracity current information. R₀'s principle of striving for consistency with *currently observed reality* often gives precedence to fresh, validated data, with historical data serving as context or a source for deeper inquiry.
+    *   **Logging Reinjection Events:** All reinjection events (what was injected, its source, its trigger, its intended target/effect) are themselves logged within the Vault (potentially as a specific type of Scar or trail), ensuring full auditability of how historical information influences the live system.
+
+4.  **Governance of Reinjection:**
+    The authority to initiate reinjections, especially those with broad systemic impact, is governed by SWM protocols. While Kimera agents may have broad read-access to the Vault, write-access to the live SWM via reinjection is typically more restricted and may require validation by HCF, TPIR, or specific governance modules to prevent destabilization.
+
+## 3.7. Semantic Healing: Fracture, Elasticity, and Vault-Assisted Regeneration
+
+The SWM, while designed for robustness and coherence under R₀, operates in a complex and often unpredictable informational environment. "Semantic Healing" refers to the SWM's advanced capability, heavily reliant on Vault Logic, to detect, diagnose, and recover from significant disruptions to its internal consistency or its alignment with modeled reality. This capability is rooted in the concepts of semantic fracture, systemic elasticity, and Vault-assisted regeneration.
+
+1.  **Defining Semantic Fracture:**
+    A "semantic fracture" is a severe and systemic form of incoherence within the SWM, more profound than isolated contradictions (Axiom III). It may manifest as:
+    *   **Widespread Inconsistency:** Multiple, interconnected Geoids failing to maintain Information Corpus Coherence (ICC), leading to cascading logical failures.
+    *   **Ontological Breakdown:** Corruption or critical incoherence within the SWM's core schemata or ontological frameworks, rendering large portions of its information uninterpretable or misleading.
+    *   **Loss of Grounding (R₀ Violation):** A significant divergence between SWM representations and observed reality across a substantial domain, unresolvable by standard contradiction management.
+    *   **Systemic Misalignment from Flawed Integration/Reinjection:** Large-scale data integration or Vault reinjection processes that inadvertently introduce pervasive errors or deep logical conflicts.
+    *   **Detection:** Semantic fractures are typically detected by the Hyper-Coherence Framework (HCF) through sustained, widespread anomalies in coherence metrics, or by TPIR flagging pervasive temporal decorrelation. Kimera agents may also escalate observations of localized issues that reveal a larger, systemic problem.
+
+2.  **Semantic Elasticity: The SWM's Capacity for Resilience:**
+    Semantic elasticity is the SWM's inherent ability to absorb informational stress, adapt to disruptive changes, and return to a coherent, functional state without catastrophic failure. Vault Logic is the primary contributor to this elasticity:
+    *   **Historical Depth as a Reference Framework:** The Vault's comprehensive archive of Scars, Echo Layers, and Mutation Trails provides a rich set of historical "known-good" or "known-resolved" states. This allows the SWM to contextualize new stresses against past experiences.
+    *   **Learned Adaptive Strategies:** Analysis of Vault data (especially Scar patterns and successful past healing episodes) allows Kimera agents and the HCF to develop and refine strategies for responding to different types of semantic stress, making the system progressively more resilient.
+    *   **Redundancy and Alternative Pathways:** The detailed information lineage in Mutation Trails and the interconnectedness of information (even if some links are currently suboptimal) may allow Kimera agents to identify alternative reasoning paths or data sources if primary ones become corrupted during a fracture.
+    *   **Controlled Degradation and Isolation:** Vault-informed protocols can enable the SWM to gracefully degrade performance or isolate fractured segments while healing occurs, rather than suffering total system collapse, thus maintaining operational continuity where possible.
+
+3.  **Vault-Assisted Regeneration Protocols:**
+    When a semantic fracture is detected and confirmed, Vault-assisted regeneration protocols are initiated, typically orchestrated by the HCF and executed by specialized Kimera agents:
+    *   **Fracture Diagnosis and Impact Assessment:** Kimera agents utilize Vault records (Scars related to the affected domain, Mutation Trails of corrupted Geoids/ontologies, relevant Echo Layers) to map the extent of the fracture, identify its likely origin, and assess its impact on SWM operations.
+    *   **Retrieval of Coherent Precursors:** Based on the diagnosis, the Vault is queried for the most recent, relevant, and coherent precursor states of the affected SWM components. This might involve retrieving:
+        *   Specific Geoid versions from Mutation Trails predating the corruption.
+        *   Schema or ontology versions from Scars marking their last stable state.
+        *   Successful contradiction resolution strategies from Scars that dealt with similar issues.
+    *   **Controlled Information Reconstruction and Reconciliation:** This is the core of the healing process and is highly context-dependent. It is NOT a naive rollback. It may involve:
+        *   **Targeted Pruning:** Eliminating demonstrably corrupted information elements, guided by Mutation Trail evidence of when and how they became corrupted.
+        *   **Reinstatement of Historical States (Sandboxed):** Introducing coherent precursor states into a quarantined SWM environment for validation and careful comparison against current (but fractured) data.
+        *   **Re-application of Validated Change Sequences:** Using Mutation Trails to re-apply only validated, coherence-enhancing changes that occurred after a known-good state, bypassing the corrupting mutations.
+        *   **Re-derivation and Re-inference:** Triggering Kimera agents to re-derive information or re-evaluate inferences in the fractured area, using the restored coherent precursors as a new baseline.
+    *   **Intensive Re-Validation:** The healed segment of the SWM undergoes rigorous validation by HCF and TPIR processes to ensure its restored coherence and its consistent integration with the wider SWM. This often involves cross-referencing with related, unfractured domains.
+    *   **Comprehensive Scarring of the Event:** The entire semantic fracture event, from detection through diagnosis, remediation, and re-validation, is meticulously documented in one or more Scars within the Vault. This Scar becomes a critical learning resource for future resilience.
+
+4.  **Axiomatic Imperatives in Healing:**
+    The entire semantic healing process is governed by the SWM's foundational axioms. R₀'s drive for coherence and fallibility management is the prime motivator. Axiom II (Operational Information) ensures that restored information is correctly contextualized. Axiom III (Constructive Contradiction) is effectively scaled up to address systemic fractures, treating them as profound learning opportunities.
+
+*(End of Section 3 on Vault Logic)*

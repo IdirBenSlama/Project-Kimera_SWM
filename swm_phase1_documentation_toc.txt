@@ -1,0 +1,70 @@
+Spatial Web Model (SWM) - Phase I Documentation: Table of Contents
+
+## Foreword
+    - Purpose of Phase I
+    - Scope and Limitations
+    - Intended Audience
+
+## Part 1: Foundational Principles & Axioms
+    1.1. Introduction to the Spatial Web Model
+    1.2. The Primal Law (R₀)
+        1.2.1. Statement and Core Tenets
+        1.2.2. Implications for SWM Design and Operation
+        1.2.3. Non-negotiable Aspects
+    1.3. The Nature of Information in SWM
+        1.3.1. Core Definition and Properties (Dynamic, Perspectival, Context-Dependent)
+        1.3.2. Information as the Basis of Reality Representation
+    1.4. The Nature of Contradiction in SWM
+        1.4.1. Definition and Types of Contradictions
+        1.4.2. Detection and Initial Handling
+        1.4.3. Role in System Learning and Evolution
+    1.5. Introduction to Kimera (The Resident Agent)
+        1.5.1. Role and Purpose of Kimera in SWM
+        1.5.2. Fundamental Principles of Kimera's Operation
+
+## Part 2: Core SWM Architectural Concepts & Entities
+    2.1. Geoids: The Fundamental Units of SWM
+        2.1.1. Definition, Characteristics, and Spatio-Temporal Bounding
+        2.1.2. Role as Information Containers and Network Nodes
+    2.2. Scars: Records of Temporal Evolution and Resolved States
+        2.2.1. Definition, Origin, and Significance
+        2.2.2. Scars as Historical Markers and Learning Aids
+        2.2.3. Distinguishing Scars from Current Geoid State
+    2.3. Echoes: Transient Information Dynamics
+        2.3.1. Definition, Mechanisms, and Characteristics
+        2.3.2. Echoes in Information Propagation and Influence Mapping
+        2.3.3. Relationship to Scars and Information Fidelity
+    2.4. Translation: Semantic Interoperability
+        2.4.1. Definition, Process, and Importance
+        2.4.2. Challenges in Semantic Preservation
+        2.4.3. Role of Kimera in Translation
+
+## Part 3: Advanced SWM Mechanics & Frameworks (Phase I Implementation)
+    3.1. The Hyper-Coherence Framework (HCF) in Phase I
+        3.1.1. Conceptual Overview: Upholding R₀ within SWM
+        3.1.2. Phase I Mechanisms for Coherence Monitoring and Enforcement
+        3.1.3. Kimera's Role in HCF-driven Contradiction Resolution
+        3.1.4. HCF and System Stability in the Phase I Context
+    3.2. Temporal Phase Information Resonance (TPIR) in Phase I
+        3.2.1. Conceptual Overview: Information Validation and Evolution Across Time
+        3.2.2. Application of TPIR in Phase I Geoid State Management
+        3.2.3. TPIR, Scar Formation, and System Learning within Phase I
+        3.2.4. Kimera's Interaction with TPIR Processes
+    3.3. Data Ingestion and Processing Pipeline (Phase I)
+        3.3.1. Defined Data Sources and Types for Phase I
+        3.3.2. Ingestion Protocols, Initial Validation, and Transformation
+    3.4. Knowledge Graph Realization (Phase I)
+        3.4.1. Representing SWM Entities (Geoids, Scars, Echoes) in the Graph
+        3.4.2. Phase I Query Capabilities and Limitations
+
+## Part 4: Operational Aspects of Phase I
+    4.1. Kimera's Role in Phase I Data Curation
+    4.2. Phase I Limitations and Known Issues (Linking to Contradiction Analysis)
+    4.3. Future Outlook (Beyond Phase I)
+
+## Appendices
+    A.1. Glossary of Terms
+    A.2. References to Foundational Research (Hypothetical)
+    A.3. Analysis of Potential Paradoxes (Summary from `potential_contradictions_analysis.md`)
+
+*TOC structure based on re-analysis of (hypothetically generated) axioms and definitions, incorporating placeholders for TPIR and HCF.*
